@@ -12,6 +12,7 @@ namespace MusicRadio.Models
 
         public string? Name { get; set; }
 
-        public string? AlbumId { get; set; }
+        [Column(name: "Album_Id")]
+        public int AlbumId { get; set; }
     }
 }
